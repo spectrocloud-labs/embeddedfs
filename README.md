@@ -7,7 +7,7 @@ Assuming you have the following directory structure:
 ```console
 .
 ├── main.go
-└── resources
+└── myresources
     └── mytemplate.tmpl
 ```
 
@@ -22,7 +22,7 @@ Then the following code will produce `out.yaml` with the content `Name: Bob`:
 var resources embed.FS
 
 func main() {
-    e := embeddedfs.NewEmbeddedFS(resources)
+    e := embeddedfs.NewEmbeddedFS("myresources", resources)
     args := map[string]interface{}{
         "Name": "Bob",
     }
