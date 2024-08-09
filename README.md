@@ -1,3 +1,10 @@
+[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/spectrocloud-labs/embeddedfs/issues)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+![Test](https://github.com/spectrocloud-labs/embeddedfs/actions/workflows/ci.yaml/badge.svg)
+[![Go Report Card](https://goreportcard.com/badge/github.com/spectrocloud-labs/embeddedfs)](https://goreportcard.com/report/github.com/spectrocloud-labs/embeddedfs)
+[![codecov](https://codecov.io/gh/spectrocloud-labs/embeddedfs/graph/badge.svg?token=QZXWTOZ1LM)](https://codecov.io/gh/spectrocloud-labs/embeddedfs)
+[![Go Reference](https://pkg.go.dev/badge/github.com/spectrocloud-labs/embeddedfs.svg)](https://pkg.go.dev/github.com/spectrocloud-labs/embeddedfs)
+
 # embeddedfs
 The embeddedfs package reads files and renders templates from an embedded file system.
 
